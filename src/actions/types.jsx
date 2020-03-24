@@ -1,0 +1,4 @@
+export const FETCH_FLIGHTS = "FETCH_FLIGHTS";
+export const CLEAR_FLIGHTS = "CLEAR_FLIGHTS";
+
+export const FETCH_FAILED = "FETCH_FAILED";

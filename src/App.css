@@ -1,0 +1,187 @@
+html, body{
+  background-color: #084177;
+}
+.sweet-loading{
+  position:relative;
+  top:100px;
+  left:500px;
+  width:320px;
+  height:320px;
+  border-radius: 150px;;
+  /* display:flex; */
+  /* justify-content: center; */
+  /* background-color: #75daad; */
+
+}
+.first {
+  /* height:200px; */
+  display:flex;
+  justify-content: center;
+}
+.second{
+  margin-top:60px;
+  width:1300px;
+  background-color: white;
+  border-radius: 10px;
+  height:300px;
+  position:fixed;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label{
+  font-size: large;
+  margin:2px 10px;
+}
+
+.icon {
+  height:80px;
+  border-radius: 10px;;
+  width:1100px;
+  box-shadow: 0px 2px 2px 0px lightgrey;
+  background-color: white;
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  
+  top:-55px;
+  left:100px;
+  position:relative;
+
+}
+.fonts {
+  width:1100px;
+
+  padding: 15px 20px;
+  font-size: larger;
+  position:absolute;
+  display:flex;
+  justify-content: space-around;
+}
+.fonts label {
+  position:relative;
+  font-size: smaller;
+  color:gray;
+  margin:0px;
+  top:35px;
+  left:-55px;
+}
+.fonts svg,i {
+  font-size: xx-large;
+}
+#pass-label-input{
+  width:160px;
+  /* display:flex; */
+}
+.adults-childs-input{
+  
+  display:flex;
+  justify-content: space-between;
+}
+.adults-childs-input div {
+  width:100px;
+  border:none;
+}
+.adults-childs-input  label{
+  width:100px;
+  font-size: small;
+  color:lightgray
+  /* flex-direction: row; */
+
+}
+.searchbox{
+  height:100px;
+
+  display:flex;
+  width:1200px;
+  /* margin:50px 177px; */
+  align-self: center;
+  border-radius: 5px;
+  border:1px solid lightgray;
+  background-color: white;
+}
+input {
+  margin-left:2px;
+  font-size: x-large;
+  width:178px;
+  margin-top:10px;
+  border:none;
+  padding:10px;
+}
+#passengers {
+  width:300px;
+}
+#adults, #childs{
+  padding:5px;
+  margin:0px;
+  margin-left: 10px;;
+  width:50px;
+  /* margin-top:20px; */
+  background-color: white;
+  font-size: large;
+  border:none;
+}
+select{
+  padding:0px;
+  /* width:100px; */
+  margin-top:20px;
+  background-color: white;
+  font-size: large;
+  border:none;
+}
+#class {
+  width:165px;
+}
+.searchbox {
+  padding:10px 10px;
+  /* border-radius: 5px; */
+  /* border:1px solid lightgray; */
+  /* border-color: black; */
+  /* margin-left:10px; */
+  /* display:flex; */
+  /* flex-direction: column; */
+}
+.journey-date{
+  width:200px;
+  }
+.journey-date div {
+  border:none;
+  margin-left:0px;
+
+}
+.journey-date input {
+  font-size:large;
+  width:160px;
+}
+.search-button{
+  position:relative;
+  top:30px;
+  display: flex;
+  justify-content: center;
+}
+.search-button button{
+  /* margin-left:20px; */
+  margin-top:20px;
+  /* background-color: #084177; */
+  color:white;
+  font-size: x-large;
+  font-weight: bold;
+  border:none;
+  border-radius: 30px;
+  padding:10px 20px;
+  width:200px;  
+  background-image: linear-gradient(to right,skyblue , #3282b8)
+}
+.search-flights {
+  padding :30px 20px;
+  margin:15px 50px 0px 50px;
+  display:flex;
+  justify-content: space-between;
+  height:50px;
+  border-radius: 10px;  ;
+  background-color: white;
+}
+.flights-time{
+  display:flex;
+  width:450px;
+  justify-content: space-between;
+}
