@@ -92,11 +92,18 @@ class Search extends React.Component  {
             })
             .then(response=>response.json())
             .then(response => {
-                console.log(response)   
-                if(!response.errors){    
+                console.log(response.message)   
+                if(response.message){
                     this.setState({
-                        airports:response
+                        airports:[{"display_name":response.message,"code":"429"}]
                     })
+                }else{
+
+                    if(!response.errors){    
+                        this.setState({
+                            airports:response
+                        })
+                    }
                 }
                 this.setState({
                     loading:false,
@@ -275,6 +282,9 @@ class Search extends React.Component  {
                         </div>
                     </div>
                 </div>
+                
+                
+                
             </div>
         )
     }
